@@ -4,11 +4,6 @@ import { MongoClient, ServerApiVersion } from "mongodb";
 import path from "path";
 import { fileURLToPath } from 'url';
 
-
-const uri = "mongodb+srv://claprince:oU4XNksOBsrB2AJ2@blog-space.leuri.mongodb.net/?retryWrites=true&w=majority";
-
-const pw = "oU4XNksOBsrB2AJ2"
-
 const __filename = fileURLToPath(import.meta.url);
 
 const __dirname = path.dirname(__filename);
